@@ -1,0 +1,30 @@
+div{
+    height: 400px;
+    width: 400px;
+    border-width: 20px;
+    border-style: dotted;
+    border-color: blueviolet;
+
+    background-image: url(assets/RickAndMorty.jfif);
+    box-shadow: inset 26px 6px 23px 33px red;
+    background-size: cover;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding: 40px;
+
+    outline-width: 40px;
+    outline-style: double;
+    outline-color: rgb(116, 43, 184);
+
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+p {
+    font-size: 50px;
+    text-align: center;
+}
