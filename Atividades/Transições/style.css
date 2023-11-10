@@ -1,0 +1,31 @@
+body {
+    background-color: #E2AFD5;
+    text-align: center;
+}
+
+h1{
+    color: #e448bd;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    color: #e448bd;
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.heart {
+    animation: pulse 1s infinite;
+}
+
