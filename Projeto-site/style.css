@@ -1,0 +1,255 @@
+* {
+    font-family: 'Roboto'
+}
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,400;0,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto' sans-serif;
+    text-align: center;
+    background-color: #174374;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+.logo {
+    float: left;
+}
+.logo img{
+    width: 50px;
+    height: auto;
+}
+
+.logo-texto {
+    font-size: 24px;
+    margin-left: 10px;
+    float: right;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #174374;
+    top: 0;
+    width: 100%;
+    position: fixed;
+       
+}
+
+
+.navbar a {
+    font-size: 20px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: transform 0.2s;
+    
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+    color: #08163B;
+
+}
+
+.header {
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2773734-abstract-technology-horizontal-motion-style-concept-digital-technology-connection-on-dark-blue-background-vetor.jpg);
+    padding: 10%;
+    /*border: 4px solid white;*/
+    /*border-radius: 20px;*/
+}
+
+.header h1 {
+    font-family: 'Roboto';
+    font-size: 70px;
+}
+
+.header h2 {
+    font-size: 20px;
+}
+
+.section01 h2 {
+    padding: 10px;
+    margin: 30px;
+   /* border: 1px solid white;*/  
+}
+
+.servicos h2 {
+    border: 1px solid black;
+    background-color: #0D2853;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid rgb(91, 91, 194);
+    background-color: #08163B;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-texto p {
+    font-size: 16px;
+}
+
+span h3 {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.article02{
+    background-color: #111113;
+}
+
+.section01 {
+    /*border: 4px solid rgb(228, 220, 220);*/
+    display: block;
+
+}
+
+div {
+    font-size: 10px;
+    padding: 20px;
+    
+}
+
+aside {
+   /* border: 4px solid white;*/
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    /*float: left;*/
+    background-color: #02133E;
+    
+}
+
+.video {
+    /*border: 1px solid white;*/
+    margin: 10px;
+    /*background-color: #08163B;*/
+    
+}
+
+/*.video p {
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #08163B;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}*/
+
+.localizacao {
+   /* border: 1px solid white;*/
+    float: right;
+    margin: 10px;
+    padding: auto;
+    /*background-color: #08163B;*/
+}
+
+/*.localizacao p {
+    background-color: #08163B;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+}*/
+
+.section01 h2 {
+    font-family: 'roboto';
+}
+
+
+
+.section-h2 {
+    border: 1px solid white;
+    color: Black;
+    background-color: #d7daef;
+
+}
+
+.article02{
+    background-color: #e1e2eb;
+}
+
+.contato-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #1a1919;
+    border-radius: 10px;
+    background-color: #0D2853;
+}
+
+.contato-form h2 {
+    font-size: 35px;
+}
+
+.contato-form label {
+    font-size: 15px;
+}
+
+.contato-form input, .contato-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #221b1b;
+    border-radius: 5px;
+}
+
+.contato-form button {
+    background-color: #08163B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    margin: 0;
+    /*border: 1px solid white;*/
+    background-color: #08163B;
+}
+
+.footer-contato{
+    display: inline-block;
+}
+
+.contato-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contato-info h3 {
+    font-size: 16px;
+}
+
+.contato-info p {
+    font-size: 16px;
+}
+
+.copyright  {
+    font-size: 13px;
+}
